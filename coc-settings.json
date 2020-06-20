@@ -13,6 +13,8 @@
     "flutter.sdk.dart-lookup": "dart",
     "flutter.sdk.flutter-lookup": "flutter",
     "flutter.lsp.initialization.closingLabels": true,
-    "cmake.cmakePath": "cmake"
+    
+    "cmake.cmakePath": "cmake",
+    "clangd.semanticHighlighting": true
 }
 

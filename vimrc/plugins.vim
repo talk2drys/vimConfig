@@ -9,7 +9,6 @@ Plug 'scrooloose/nerdtree'                                      " file explorer 
 Plug 'majutsushi/tagbar'                                        " TagBar Plugin
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'ryanoasis/nerd-fonts'                                     " nerd font
 Plug 'ryanoasis/vim-devicons'                                   " vim devicon
 
 Plug 'vim-syntastic/syntastic'                                  " syntax checker
@@ -21,6 +20,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'vim-python/python-syntax'                                 " enhanced python syntax highlighter
 Plug 'pboettch/vim-cmake-syntax'                                " cmake file syntact highlighting
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'                  " syntax highligher for filetype
+Plug 'jackguo380/vim-lsp-cxx-highlight'	                        " C/C++ clang base syntax highlighter
 
 Plug 'itchyny/lightline.vim'                                    " vim lightline
 
