@@ -1,0 +1,18 @@
+{
+    "languageserver": {
+       "dart": {
+            "command": "dart_language_server",
+            "args": [],
+            "filetypes": ["dart"],
+            "disableDynamicRegister": true,
+            "trace.server": "verbose"
+        }
+    },
+
+    "flutter.lsp.debug": true,
+    "flutter.sdk.dart-lookup": "dart",
+    "flutter.sdk.flutter-lookup": "flutter",
+    "flutter.lsp.initialization.closingLabels": true,
+    "cmake.cmakePath": "cmake"
+}
+
