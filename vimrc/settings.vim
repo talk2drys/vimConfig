@@ -48,3 +48,10 @@ syntax on
 set t_Co=256
 set background=dark " for the dark version
 colorscheme onedark
+
+augroup CursorLine
+  au!
+  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+  au WinLeave * setlocal nocursorline
+augroup END
+
