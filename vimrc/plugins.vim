@@ -14,6 +14,7 @@ Plug 'ryanoasis/vim-devicons'                                   " vim devicon
 Plug 'vim-syntastic/syntastic'                                  " syntax checker
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }             " fzf find
 Plug 'junegunn/fzf.vim'
+Plug 'thaerkh/vim-indentguides'
 
 " Language Syntax
 " ===============

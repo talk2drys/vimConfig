@@ -75,3 +75,9 @@ let g:tagbar_type_dart = { 'ctagsbin': '~/.pub-cache/bin/dart_ctags' }
 " =================
 let g:lightline = {'colorscheme': 'onedark'}
 " }}}
+"
+
+" ==========Indent Guide ====== {{{
+let g:indentguides_spacechar = '│'
+let g:indentguides_tabchar = '│'
+" }}}
