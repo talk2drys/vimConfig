@@ -23,7 +23,6 @@ let g:plug_window = 'noautocmd vertical topleft new'
 " Plugin TagBar Config {{{
 " ========================
 map <C-t> :TagbarToggle<CR>
-
 " }}}
 
 " Syntastic Plugin Configs {{{
@@ -80,4 +79,8 @@ let g:lightline = {'colorscheme': 'onedark'}
 " ==========Indent Guide ====== {{{
 let g:indentguides_spacechar = '│'
 let g:indentguides_tabchar = '│'
+" }}}
+
+" ========== Dart Plugin Config ======== {{{
+let dart_html_in_string=v:true
 " }}}

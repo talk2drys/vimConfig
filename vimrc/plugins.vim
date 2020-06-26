@@ -22,6 +22,7 @@ Plug 'vim-python/python-syntax'                                 " enhanced pytho
 Plug 'pboettch/vim-cmake-syntax'                                " cmake file syntact highlighting
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'                  " syntax highligher for filetype
 Plug 'jackguo380/vim-lsp-cxx-highlight'	                        " C/C++ clang base syntax highlighter
+Plug 'dart-lang/dart-vim-plugin'	                            " Dart Support plugin
 
 Plug 'itchyny/lightline.vim'                                    " vim lightline
 
