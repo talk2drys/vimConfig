@@ -15,7 +15,7 @@ Plug 'vim-syntastic/syntastic'                                  " syntax checker
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }             " fzf find
 Plug 'junegunn/fzf.vim'
 Plug 'thaerkh/vim-indentguides'
-
+Plug 'jiangmiao/auto-pairs'
 " Language Syntax
 " ===============
 Plug 'vim-python/python-syntax'                                 " enhanced python syntax highlighter
