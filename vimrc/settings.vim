@@ -3,7 +3,6 @@
 " set nocompatible
 
 " ================ General Config ====================
-
 set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
@@ -22,7 +21,6 @@ set mouse=a
 set hidden
 
 " ================ Indentation ======================
-
 set autoindent
 set smartindent
 set smarttab
@@ -33,13 +31,9 @@ set expandtab
 
 
 " ================ Folds ============================
-
-set foldmethod=indent   "fold based on indent
-set foldnestmax=3       "deepest fold is 3 levels
 set nofoldenable        "dont fold by default
 
 " ================ Turn Off Swap Files ==============
-
 set noswapfile
 set nobackup
 set nowb

@@ -1,28 +1,7 @@
-" Plugin NERDTree config  {{{
-" ===========================
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
-let NERDTreeShowHidden=1	                                    " Show hidden files
-let NERDTreeWinSize = 50	                                    " NERDTREE Widgth size
-map <C-n> :NERDTreeToggle<CR>
-
-let g:NERDTreeDisableFileExtensionHighlight = 0                 " Disable File extension highlighlting (defualt 1)
-let g:NERDTreeDisableExactMatchHighlight = 0                    " Disable ExactMatch highlighting  (defualt 1)
-let g:NERDTreeDisablePatternMatchHighlight = 0                  " Disable Pattern macthing  (defualt 1)
-let g:NERDTreeFileExtensionHighlightFullName = 1
-let g:NERDTreeExactMatchHighlightFullName = 1
-let g:NERDTreePatternMatchHighlightFullName = 1
-
-
 " If more than one window and previous buffer was NERDTree, go back to it.
 autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" && winnr('$') > 1 | b# | endif
 let g:plug_window = 'noautocmd vertical topleft new'
 
-" }}}
-
-" ================ NERDTree GiT Plugin ======== }}}
-let g:NERDTreeShowIgnoredStatus = 1
 " }}}
 
 "Plugin TagBar Config {{{
@@ -106,14 +85,11 @@ let g:NERDAltDelims_c = 1
 let g:NERDSpaceDelims = 1
 let g:NERDToggleCheckAllLines = 1
 
-
 " Vista Config
 " ============
 let g:vista_sidebar_width = 80
 
-
-
 " Vim-Markdown
 " ============
-set conceallevel=2
-g:vim_markdown_conceal = 1
+" set conceallevel=2
+" g:vim_markdown_conceal = 1

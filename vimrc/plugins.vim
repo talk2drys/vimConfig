@@ -4,8 +4,6 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 " set rtp+=~/.vim/bundle/Vundle.vim
 call plug#begin('~/.vim/plugged')
-
-Plug 'scrooloose/nerdtree'                                      " file explorer plugin
 Plug 'majutsushi/tagbar'                                        " TagBar Plugin
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 

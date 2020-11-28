@@ -13,7 +13,7 @@ source $HOME/.vim/vimrc/coc_configs.vim
 let g:asmsyntax = 'nasm'
 "let g:onedark_color_overrides = {"member": {"cterm" : 14},}
 
-set termguicolors	        " set termguicolors
+set termguicolors               " set termguicolors
 
 set makeprg=cmakedbg
 
@@ -21,7 +21,6 @@ set makeprg=cmakedbg
 if filereadable(expand("$HOME/.vimrc.local"))
   source $HOME/.vimrc.local
 endif
-
 
 set updatetime=300
 au CursorHold * sil call CocActionAsync('highlight')
