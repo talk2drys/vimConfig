@@ -16,6 +16,7 @@ Plug 'thaerkh/vim-indentguides'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mhinz/vim-signify'	                                    " Vim Signify
 Plug 'liuchengxu/vista.vim'
+Plug 'liuchengxu/vim-which-key'                                 " Vim Which key
 
 
 " Language Syntax
