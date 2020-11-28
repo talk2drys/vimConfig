@@ -14,6 +14,7 @@ set gcr=a:blinkon0              "Disable cursor blink
 set t_vb=                       "disable visual flashing
 set autoread                    "Reload files changed outside vim
 set noshowmode	                "Remove the default --INSERT-- since vim lightline is installed 
+set mouse=a
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
@@ -54,4 +55,13 @@ augroup CursorLine
   au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
   au WinLeave * setlocal nocursorline
 augroup END
+
+
+" https://vim.fandom.com/wiki/How_to_not_move_cursor_when_selecting_window_with_mouse
+" DO not move cursor when selecting window with mouse
+augroup NO_CURSOR_MOVE_ON_FOCUS
+  au!
+  au FocusLost * let g:oldmouse=&mouse | set mouse=
+  au FocusGained * if exists('g:oldmouse') | let &mouse=g:oldmouse | unlet g:oldmouse | endif
+augroup END
 

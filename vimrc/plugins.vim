@@ -16,6 +16,10 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }             " fzf find
 Plug 'junegunn/fzf.vim'
 Plug 'thaerkh/vim-indentguides'
 Plug 'jiangmiao/auto-pairs'
+Plug 'mhinz/vim-signify'	                                    " Vim Signify
+Plug 'liuchengxu/vista.vim'
+
+
 " Language Syntax
 " ===============
 Plug 'vim-python/python-syntax'                                 " enhanced python syntax highlighter
@@ -23,8 +27,15 @@ Plug 'pboettch/vim-cmake-syntax'                                " cmake file syn
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'                  " syntax highligher for filetype
 Plug 'jackguo380/vim-lsp-cxx-highlight'	                        " C/C++ clang base syntax highlighter
 Plug 'dart-lang/dart-vim-plugin'	                            " Dart Support plugin
+Plug 'rust-lang/rust.vim'                                       " Rust Support Plugin
+Plug 'calincru/flex-bison-syntax'	                            " Flex and Bison syntax plugin
+Plug 'vim-scripts/SyntaxAttr.vim'
+Plug 'arzg/vim-rust-syntax-ext'                                 " Rust Syntax Highlight Extension
+Plug 'cespare/vim-toml'                                         " Toml Syntax Highlight
+Plug 'flw-cn/vim-markdown'
 
 Plug 'itchyny/lightline.vim'                                    " vim lightline
+Plug 'preservim/nerdcommenter'                                  " vim commentary
 
 " Color Scheme
 " ===============

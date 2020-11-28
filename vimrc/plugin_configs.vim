@@ -4,7 +4,7 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 let NERDTreeShowHidden=1	                                    " Show hidden files
-let NERDTreeWinSize = 60	                                    " NERDTREE Widgth size
+let NERDTreeWinSize = 50	                                    " NERDTREE Widgth size
 map <C-n> :NERDTreeToggle<CR>
 
 let g:NERDTreeDisableFileExtensionHighlight = 0                 " Disable File extension highlighlting (defualt 1)
@@ -21,11 +21,20 @@ let g:plug_window = 'noautocmd vertical topleft new'
 
 " }}}
 
-" Plugin TagBar Config {{{
-" ========================
-map <C-t> :TagbarToggle<CR>
-let g:tagbar_width=70
+" ================ NERDTree GiT Plugin ======== }}}
+let g:NERDTreeShowIgnoredStatus = 1
 " }}}
+
+"Plugin TagBar Config {{{
+" ========================
+" map <C-t> :TagbarToggle<CR>
+let g:tagbar_width=60
+" }}}
+
+"Plugin Vista Config {{{
+"=======================
+map <C-t> :Vista!!<CR>
+"}}}
 
 " Syntastic Plugin Configs {{{
 " ============================
@@ -86,3 +95,25 @@ let g:indentguides_tabchar = '│'
 " ========== Dart Plugin Config ======== {{{
 let dart_html_in_string=v:true
 " }}}
+
+
+" NERDCOMMENTER
+" =============
+"let g:NERDCustomDelimiters = { 'c': { 'left': '// ' } }
+let g:NERDDefaultAlign = 'left'
+"let g:NERDCompactSexyComs = 1
+let g:NERDAltDelims_c = 1
+let g:NERDSpaceDelims = 1
+let g:NERDToggleCheckAllLines = 1
+
+
+" Vista Config
+" ============
+let g:vista_sidebar_width = 80
+
+
+
+" Vim-Markdown
+" ============
+set conceallevel=2
+g:vim_markdown_conceal = 1

@@ -1,32 +1,18 @@
 {
     "languageserver": {
        "dart": {
-            "command": "dart_language_server",
-            "args": [],
+            "command": "dart",
+            "args": ["/opt/dart-sdk/bin/snapshots/analysis_server.dart.snapshot", "--lsp"],
             "filetypes": ["dart"],
             "disableDynamicRegister": true,
             "trace.server": "verbose"
-        },
-        "ccls": {
-            "command": "ccls",
-            "filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
-            "rootPatterns": [".ccls-root", "compile_commands.json"],
-            "initializationOptions": {
-                "cache": {
-                    "directory": ".ccls-cache"
-                },
-                "client": {
-                    "snippetSupport": true
-                },
-                "highlight": { "lsRanges" : true }
-            }
         }
     },
     "flutter.lsp.debug": true,
     "flutter.sdk.dart-lookup": "dart",
     "flutter.sdk.flutter-lookup": "flutter",
     "flutter.lsp.initialization.closingLabels": true,
-    
-    "cmake.cmakePath": "cmake"
+    "clangd.enabled": true,
+    "clangd.semanticHighlighting": true
 }
 

@@ -1,1 +1,1 @@
-Person vim configuration file
+Personal vim configuration file
